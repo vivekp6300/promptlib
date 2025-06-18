@@ -1,0 +1,15 @@
+[project]
+name = "promptlib"
+version = "0.1.0"
+description = "Markdown-to-JSON prompt conversion tool"
+authors = [{name = "Vivek Pandey", email = "pvivek@live.in"}]
+dependencies = []
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+line-length = 88
+
+[tool.mypy]
+strict = true
